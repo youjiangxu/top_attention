@@ -3,7 +3,7 @@
 
 This repository is the source code of "[Top Attention](http://ieeexplore.ieee.org/document/8019360/)". The code is tested on the Ubuntu 14.04 and matlab 2014a. 
 
-![Top Attention](./top-attention.png)
+![Top-Attention-Framework](./Top-Attention-Framework.png)
 
 ## Requirments
 - System: Ubuntu 14.04
@@ -25,12 +25,15 @@ This repository is the source code of "[Top Attention](http://ieeexplore.ieee.or
 
 ## Examples
 - Visualization of Top Attention. The LDDs from the bright regions will be reserved, while others will be filtered. We can find that most removed LDDs belong to background.
+
 ![Visualization-Top-Attention](./Visualization-Top-Attention.png)
 
 - Comparison of VLAD and Weight-VLAD. The left column shows the original images. The middle column shows that VLAD aggregates the differences between reserved descriptors and the corresponding centers. The right column shows that the Weight-VLAD can focus on the key regions.
+
 ![Visualization-WeightVLAD-Vs-VLAD](./Visualization-WeightVLAD-Vs-VLAD.png)
 
 - Visualizations of Top Attention. The brighter a region is, the more salient a motion of action is along the time line.
+
 ![Video-Demo](./Video-Demo.png)
 
 
@@ -40,12 +43,12 @@ Youjiang Xu, Shichao Zhao, [Yahong Han](http://cs.tju.edu.cn/faculty/hanyahong/)
 
 
 ```
-	@inproceedings{xu2017top,
-	  title={Top attention in line with time: A light-weight strategy},
-	  author={Xu, Youjiang and Zhao, Shichao and Han, Yahong and Hu, Qinghua and Wu, Fei},
-	  booktitle={Multimedia and Expo (ICME), 2017 IEEE International Conference on},
-	  pages={295--300},
-	  year={2017},
-	  organization={IEEE}
-	}
+@inproceedings{xu2017top,
+  title={Top attention in line with time: A light-weight strategy},
+  author={Xu, Youjiang and Zhao, Shichao and Han, Yahong and Hu, Qinghua and Wu, Fei},
+  booktitle={Multimedia and Expo (ICME), 2017 IEEE International Conference on},
+  pages={295--300},
+  year={2017},
+  organization={IEEE}
+}
 ```
